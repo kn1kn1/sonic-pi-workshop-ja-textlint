@@ -1,0 +1,7 @@
+version: 1
+imports:
+  - prh/ja/web+db.yml
+rules:
+  # project configuration
+  # - expected: Almin
+  #   patterns: /almin.js/i
