@@ -787,8 +787,8 @@ rules:
   - expected: iOS SDK
     pattern: /\biOS SDK\b/i
 
-  - expected: ISO
-    pattern: ISO-
+  # - expected: ISO
+  #   pattern: ISO-
 
   # ★ISO9★
   - expected: ISO $1
@@ -1256,8 +1256,8 @@ rules:
         to:   Yahoo!メール
 
 
-  - expected: "Yahoo!ウィジェット"
-    pattern: /\bYahooWidget\b|Yahoo\!Widget|Yahoo\! Widget|\bYahooGadget\b|Yahoo\!Gadget|Yahoo\! Gadget/
+  # - expected: "Yahoo!ウィジェット"
+  #   pattern: /\bYahooWidget\b|Yahoo\!Widget|Yahoo\! Widget|\bYahooGadget\b|Yahoo\!Gadget|Yahoo\! Gadget/
 
   - expected: YouTube
     pattern: /\bYoutube\b|\byoutube\b/
@@ -1440,33 +1440,33 @@ rules:
   - expected: "!? $1"
     pattern: /！？([^\n\s「」『』（）［］])/
 
-  # ★!?あ★
-  - expected: "!? $1"
-    pattern: /\!\?([^\n\s「」『』（）［］])/
-
-  # ★？！あ★
-  - expected: "?! $1"
-    pattern: /？！([^\n\s「」『』（）［］])/
-
-  # ★?!あ★
-  - expected: "?! $1"
-    pattern: /\?\!([^\n\s「」『』（）［］])/
-
-  # ★？？あ★
-  - expected: "?? $1"
-    pattern: /？？([^\n\s「」『』（）［］])/
-
-  # ★??あ★
-  - expected: "?? $1"
-    pattern: /\?\?([^\n\s「」『』（）［］])/
-
-  # ★！あ★
-  - expected: ！ $1
-    pattern: /！([^\n\s「」『』（）［］])/
-
-  # ★？あ★
-  - expected: ？ $1
-    pattern: /？([^\n\s「」『』（）［］★])/
+  # # ★!?あ★
+  # - expected: "!? $1"
+  #   pattern: /\!\?([^\n\s「」『』（）［］])/
+  #
+  # # ★？！あ★
+  # - expected: "?! $1"
+  #   pattern: /？！([^\n\s「」『』（）［］])/
+  #
+  # # ★?!あ★
+  # - expected: "?! $1"
+  #   pattern: /\?\!([^\n\s「」『』（）［］])/
+  #
+  # # ★？？あ★
+  # - expected: "?? $1"
+  #   pattern: /？？([^\n\s「」『』（）［］])/
+  #
+  # # ★??あ★
+  # - expected: "?? $1"
+  #   pattern: /\?\?([^\n\s「」『』（）［］])/
+  #
+  # # ★！あ★
+  # - expected: ！ $1
+  #   pattern: /！([^\n\s「」『』（）［］])/
+  #
+  # # ★？あ★
+  # - expected: ？ $1
+  #   pattern: /？([^\n\s「」『』（）［］★])/
 
   # かけ算。★0x9★
   - expected: $1×$2
