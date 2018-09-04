@@ -1,0 +1,4 @@
+[submodule "sonic-pi-workshop"]
+	path = sonic-pi-workshop
+	url = https://github.com/kn1kn1/sonic-pi-workshop.git
+	branch = ja-translation
