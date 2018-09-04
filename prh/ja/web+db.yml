@@ -1031,12 +1031,12 @@ rules:
   - expected: RPCサービス
     pattern: /\bRPC Services\b/
 
-  - expected: Ruby
-    pattern: /\bRuby\b/i
-
-  # ★Ruby1★
-  - expected: Ruby $1
-    pattern: /Ruby([0-9])/
+  # - expected: Ruby
+  #   pattern: /\bRuby\b/i
+  #
+  # # ★Ruby1★
+  # - expected: Ruby $1
+  #   pattern: /Ruby([0-9])/
 
   - expected: Ruby on Rails
     pattern: /\bRuby On Rails\b|\bRoR\b/
@@ -1409,13 +1409,13 @@ rules:
   - expected: セッションBean
     pattern: /\bsession bean\b|\bSession Bean\b/
 
-  # 本文中では
-  - expected: ％$1
-    pattern: /%([^0123456789])/
+  # # 本文中では
+  # - expected: ％$1
+  #   pattern: /%([^0123456789])/
 
-  # カタカナの後ろの中黒「・」をトルツメ。★ア・★
-  - expected: $1
-    pattern: /([ァ-ヶ])・/
+  # # カタカナの後ろの中黒「・」をトルツメ。★ア・★
+  # - expected: $1
+  #   pattern: /([ァ-ヶ])・/
 
   - expected: …
     pattern: /・・・|･･･/
